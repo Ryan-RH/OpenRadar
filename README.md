@@ -1,4 +1,4 @@
-This plugin is still a WIP.
+This code is currently being rewritten over at https://github.com/bilk/OpenRadar.
 
 ## Safety Warning
 This plugin functions by using player Content IDs to query local databases, and if that fails, makes a request to the game servers with that content ID. First it requests the Character Card information of the player, but if the card is not created or private will then request "friend" information of the player (this does not require the player to be a friend).
